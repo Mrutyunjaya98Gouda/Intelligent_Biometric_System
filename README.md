@@ -26,10 +26,13 @@ The system features:
    ```bash
    pip install torch torchvision torchaudio timm opencv-python matplotlib numpy scikit-learn
    ```
+4. **Update The Paths**
+   change the default path to the part you have saved the data set in.
 
+   
 ## 📂 Data Preparation
 
-The `BiometricDataset` module natively supports the **NUPT-FPV** dataset folder structure, but can also work with a simple legacy layout. 
+The `BiometricDataset` module natively supports the **NUPT-FPV** and **Polu-U** dataset folder structure, but can also work with a simple legacy layout. 
 
 **Important Config Update:**
 Before running, you must open `demo.py` and update the **hardcoded paths** at the top of the file to point to your local dataset and desired output directories:
