@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pth
+*.csv
+*.png
+.DS_Store
+Data/
+NUPT-FPV-main/
+test_results/
