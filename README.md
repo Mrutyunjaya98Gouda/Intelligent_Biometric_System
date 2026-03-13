@@ -26,7 +26,7 @@ The system features:
    ```bash
    pip install torch torchvision torchaudio timm opencv-python matplotlib numpy scikit-learn
    ```
-4. **Update The Paths**
+4. **Update The Paths:**
    change the default path to the part you have saved the data set in.
 
    
